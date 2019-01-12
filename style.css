@@ -1,0 +1,28 @@
+body {
+    background-color: lightgrey; /* kolor tła */
+    margin: 0;  /* margines */
+    display: flex;  /* sposób wyświetlania elementu: flex - elastyczność elementów */
+    justify-content: center;    /* wyjustowanie w osi narzuconej przez flex-direction */
+}
+
+main {
+    width: 800px;   /* szerokość */
+    display: flex;  /* */
+    align-items: center;    /* układ elementu prostopadle do osi(czyli przeciwnie do osi) */
+    flex-direction: column; /* kierunek osi układania się elementów */
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* wcięcie wewnątrz elementów */
+    width: 100%;
+}
+
+li {
+    background-color: red;
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
