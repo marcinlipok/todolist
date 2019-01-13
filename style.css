@@ -19,7 +19,7 @@ ul {
 }
 
 li {
-    background-color: red;
+    background-color: white;
     width: calc(100% - 20px);
     margin: 10px;
     padding: 10px;
